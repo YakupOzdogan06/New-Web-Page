@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+nav.nav-top {
+  background-image: linear-gradient(
+    to right,
+    rgb(119, 99, 99),
+    rgba(207, 46, 207, 0.805)
+  );
+}
+nav.nav-top img {
+  width: 50px;
+  border: 2px solid rgb(63, 11, 11);
+  outline: 3px solid red;
+  padding: 0px;
+  margin: 0.6rem;
+  outline-offset: 0.3rem;
+}
+.nav-top .sign-in {
+  float: right;
+  margin: 2rem 1rem;
+  color: white;
+  font-weight: 700;
+}
+.nav-top .sign-in a {
+  color: white;
+  text-decoration: none;
+}
+.nav-top .sign-in a:hover {
+  color: black;
+}
+.clearfix {
+  clear: both;
+}
+.nav-main {
+  text-align: center;
+  line-height: 4rem;
+  background-color: orange;
+  position: sticky;
+  top: 0px;
+  font-family: "DynaPuff", cursive;
+  font-size: 1.1rem;
+}
+.nav-main a {
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: 700;
+  color: black;
+}
+.nav-main a:hover {
+  color: white;
+}
+.fa-slack {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 3rem;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+.fa-slack:hover {
+  color: black;
+  background: transparent;
+}
+main {
+  padding: 1.5rem;
+  text-align: justify;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)) , url(logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+main img{
+    width: 100px;
+    float: left;
+    margin: 0 1rem 1rem 0;
